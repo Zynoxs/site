@@ -1,0 +1,7 @@
+<form #form="ngForm" (ngSubmit)="onSubmit()">
+  <input type="text" name="nome" [(ngModel)]="produto.nome" placeholder="Nome do jogo" required />
+  <input type="number" name="preco" [(ngModel)]="produto.preco" placeholder="Preço" required />
+  <input type="text" name="imagem" [(ngModel)]="produto.imagem" placeholder="URL da imagem" />
+  <textarea name="descricao" [(ngModel)]="produto.descricao" placeholder="Descrição"></textarea>
+  <button type="submit">Cadastrar</button>
+</form>

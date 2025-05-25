@@ -1,0 +1,11 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "GTA V",
+      "preco": 12.90,
+      "imagem": "gta.jpg",
+      "descricao": "o maior jogo de 2013 na sua mao GG."
+    }
+  ]
+}
